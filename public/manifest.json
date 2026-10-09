@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "KaonTa Bohol - Local Food & Delicacies",
+  "short_name": "KaonTa Bohol",
+  "description": "Location-based non-profit platform for local eats, restaurants, and pasalubong products in Bohol, Philippines.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FDFBF7",
+  "theme_color": "#164E3D",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

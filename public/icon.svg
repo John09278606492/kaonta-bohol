@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#164E3D" />
+      <stop offset="100%" stop-color="#0E3328" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircles -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Warm Hill Curve Motif -->
+  <path d="M64 400 C 160 320, 240 330, 320 380 C 380 410, 420 420, 448 400 L 448 448 L 64 448 Z" fill="#256B54" opacity="0.3" />
+  
+  <!-- Utensils Cross & Bowl/Plate Center -->
+  <g transform="translate(136, 120)">
+    <!-- Plate Ring -->
+    <circle cx="120" cy="120" r="100" fill="none" stroke="url(#accentGrad)" stroke-width="14" stroke-dasharray="8 6" />
+    <circle cx="120" cy="120" r="82" fill="#E8F3EE" opacity="0.12" />
+    
+    <!-- Fork & Spoon crossed -->
+    <!-- Fork -->
+    <path d="M80 60 L80 110 C80 125 95 135 105 135 L105 210 C105 216 110 220 116 220 C122 220 127 216 127 210 L127 135 C137 135 152 125 152 110 L152 60" fill="none" stroke="#FDFBF7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-30 120 120)" />
+    <!-- Spoon -->
+    <path d="M120 50 C95 50 85 80 85 105 C85 128 100 138 112 140 L112 210 C112 216 117 220 123 220 C129 220 134 216 134 210 L134 140 C146 138 161 128 161 105 C161 80 151 50 126 50 Z" fill="#FDFBF7" transform="rotate(30 120 120)" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "KaonTa Bohol - Local Food & Pasalubong Platform",
+  "description": "A location-based digital platform for discovering local eats, restaurants, and authentic pasalubong products across Bohol, Philippines.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
